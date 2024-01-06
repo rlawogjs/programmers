@@ -4,7 +4,7 @@ int main() {
     int A, B, C;
     scanf("%d %d %d", &A, &B, &C);
 
-    int time[101] = {0}; // 시간대별 주차된 트럭의 수를 저장하는 배열
+    int time[101] = {0}; 
     for (int i = 0; i < 3; i++) {
         int start, end;
         scanf("%d %d", &start, &end);
